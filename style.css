@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+section{
+ 
+    display: grid;
+
+   
+    grid-template-columns: 1fr;
+    gap: 30px;
+    
+    
+
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: #F7F2E9;
+
+
+}
+
+article{
+    border: 2px solid gray;
+    border-radius: 70px;
+    justify-items: center;
+    padding: 20px;
+
+
+}
+
+article > p::first-letter{
+    font-size: 30px;
+}
+
+article > p::first-line{
+    font-style: italic;
+}
+
+article:hover{
+    background-color: #EAE2F2;
+    color: black;
+}
+
+button:hover{
+    background-color: red;
+    color: white;
+}
+
+.article1:has(#DarkMode:checked){
+    background-color: #2D3748;
+    color: #F1F5F9;
+}
+
+.article2:has(#DarkMode:checked){
+    background-color: #2D3748;
+    color: #F1F5F9;
+}
+
+.article3:has(#DarkMode:checked){
+    background-color: #2D3748;
+    color: #F1F5F9;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    
+}
+
+.article1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.article2{
+    font-family: 'Cormorant Garamond', serif;
+
+ }
+    
+.article3{ 
+    font-family: 'Roboto Mono', monospace;
+
+}
+   
